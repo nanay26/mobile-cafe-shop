@@ -1,33 +1,19 @@
-# Dependencies
-node_modules/
-
-# Expo
-.expo/
-.expo-shared/
-
-# Environment
-.env
-
-# Build
-android/
-ios/
-dist/
-web-build/
-
-# Logs
-*.log
-npm-debug.log*
-
-# OS
+# OSX
+#
 .DS_Store
-Thumbs.db
 
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
 
-# Temporary
-*.tmp
-*.temp
+# generated inline modules
+app/src/main/java/inline/
+
+# Bundle artifacts
+*.jsbundle
