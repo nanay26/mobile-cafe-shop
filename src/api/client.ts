@@ -12,7 +12,7 @@ const DEFAULT_DEV_URL = Platform.select({
 
 const API_BASE_URL =
   process.env.EXPO_PUBLIC_API_BASE_URL ||
-  (__DEV__ ? DEFAULT_DEV_URL : 'https://api.tersenyumcoffe.com');
+  (__DEV__ ? DEFAULT_DEV_URL : 'https://backend-cafe-shop-3jj2.vercel.app/api');
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,

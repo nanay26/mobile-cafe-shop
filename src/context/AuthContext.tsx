@@ -37,7 +37,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   };
 
   const login = async (username: string, password: string) => {
-    const res = await apiClient.post('/api/auth/mobile-login', {
+    const res = await apiClient.post('/auth/mobile-login', {
       username,
       password,
     });
